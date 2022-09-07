@@ -3,9 +3,10 @@ body {
     min-height: 400px;
     background-image: url("https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/cota%C3%A7%C3%A3o-moedas.png");
     background-color: #2f2fb6;
-    background-size: 125vh;
+    background-size: 1750px;
     background-position: center;
     background-repeat: no-repeat;
+    border: 50px rgb(165, 11, 11);
   }
   
   .container {
