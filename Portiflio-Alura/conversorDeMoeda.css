@@ -1,10 +1,10 @@
 body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png");
-    background-color: #000000;
-    background-size: 100vh;
-    background-position: center bottom;
+    background-image: url("https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/cota%C3%A7%C3%A3o-moedas.png");
+    background-color: #2f2fb6;
+    background-size: 125vh;
+    background-position: center;
     background-repeat: no-repeat;
   }
   
@@ -42,25 +42,36 @@ body {
   }
   
   label {
-    color: white;
+    color: rgb(245, 240, 240);
   }
   
   button {
     margin-top: 12px;
     padding: 4px 8px;
     border-radius: 10px;
-    background: #ffffff;
+    background: #cff7c7;
   }
-
+  
   button2 {
     margin-top: 12px;
     padding: 4px 8px;
     border-radius: 10px;
-    background: #1310e2;
+    background: #8296a3;
   }
   
   h2 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 50px;
+  }
+  
+  h3 {
+    color: #f5f8ff;
+    font-size: 25px;
+    font-family: "Luminari", coursive;
+  }
+
+  h5{
+    color: #f5f8ff;
+    font-family: "Luminari", coursive;
   }
   
