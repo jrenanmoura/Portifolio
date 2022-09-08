@@ -5,31 +5,27 @@ function ConverterF() {
     var valor = valorElemento.value
     var valorNumber = parseFloat(valor)
   
-    var temp1 = valorNumber * 
-    console.log(temp1.tofixed(2))
-
+    var temp1 = valorNumber * 1.8 + 32
+    console.log(temp1)
     
-  
-    var valorElemento = document.getElementById("n2")
-    var valor1 = "Valor em R$ " + valorEmRealDolar
+    var valorElemento = document.getElementById("v1")
+    var valor1 = "Temperatura de  " + temp1 + "°F"
     valorElemento.innerHTML = valor1
 }
 
     function ConverterK() {
-        var valorElemento = document.getElementById("valor2")
+        var valorElemento = document.getElementById("n2")
         var valor = valorElemento.value
         var valorNumber2 = parseFloat(valor)
 
-    var valorEmRealEuro = valorNumber2 * 7
-    console.log(valorEmRealEuro) 
+    var temp2 = valorNumber2 + 273.15
+    console.log(temp2) 
 
-    var valorElemento = document.getElementById("valorConvertidoEuro")
-    var valorEmRealEuro = "Valor em R$ " + valorEmRealEuro
-    valorElemento.innerHTML = valorEmRealEuro
+    var valorElemento = document.getElementById("v2")
+    var valor2 = "Temperatura de  " + temp2 + "°K"
+    valorElemento.innerHTML = valor2
     
   }
 
-
-}
 
   
