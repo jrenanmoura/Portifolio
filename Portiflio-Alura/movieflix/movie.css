@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-image: url("https://observer.com/wp-content/uploads/sites/2/2021/05/summer-movies-2021-new-e1620919489437.jpg?quality=80");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -40,5 +40,6 @@ body {
   
   img {
     max-height: 250px;
+    padding: 15px;
   }
   
