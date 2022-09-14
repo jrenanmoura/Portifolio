@@ -14,10 +14,10 @@ var jogadores = [rafa, paulo, gui]
 
 function exibeJogadoresNaTela(){
     var elemento = ""
-    for(var i =0; i < jogadores.length; i++ ){
+    for(var i = 0; i < jogadores.length; i++ ){
 
         elemento += "<tr><td>" + jogadores[i].nome + "</td>"
-        elemento += "<td>" + jogadores[i].vitorias + " +</td>"
+        elemento += "<td>" + jogadores[i].vitorias + "</td>"
         elemento += "<td>" + jogadores[i].empates + "</td>"
         elemento += "<td>" + jogadores[i].derrotas + "</td>"
         elemento += "<td>" + jogadores[i].pontos + "</td>"
