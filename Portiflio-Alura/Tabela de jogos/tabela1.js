@@ -54,3 +54,26 @@ function adicionarDerrota(i){
     exibeJogadoresNaTela(jogadores)
 
 }
+
+function zerar() {
+    for (var i = 0; i < jogadores.length; i++) {
+      jogadores[i].vitorias = 0;
+      jogadores[i].empates = 0;
+      jogadores[i].derrotas = 0;
+      jogadores[i].pontos = 0;
+      exibeJogadoresNaTela(jogadores);
+    }
+  }
+  
+  function adicionarNacao() {
+    var elementoInput = document.getElementById("insiraNome").value;
+    jogadores.push({
+      nome: elementoInput,
+      vitorias: 0,
+      empates: 0,
+      derrotas: 0,
+      pontos: 0
+    });
+    exibeJogadoresNaTela(jogadores);
+  }
+  
