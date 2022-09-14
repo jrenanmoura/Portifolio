@@ -1,16 +1,16 @@
-var rafa = {nome:"Rafa", vitorias:2, empates:1, derrotas:1,pontos:0}
-var paulo = {nome:"Paulo", vitorias:3, empates:1, derrotas:2,pontos:9}
-var gui = {nome:"Gui", vitorias:3, empates:1, derrotas:2,pontos:9}
+var portugal = {nome:"Portugal", vitorias:2, empates:1, derrotas:1,pontos:0}
+var espanha = {nome:"Espanha", vitorias:3, empates:1, derrotas:2,pontos:9}
+var frança = {nome:"França", vitorias:3, empates:1, derrotas:2,pontos:9}
 
-calculaPontos(rafa)
-rafa.pontos = calculaPontos(rafa)
+calculaPontos(portugal)
+portugal.pontos = calculaPontos(portugal)
 
 function calculaPontos(jogador){
     var pontos = (jogador.vitorias * 3) + jogador.empates
     return pontos
 }
 
-var jogadores = [rafa, paulo, gui]
+var jogadores = [portugal, espanha, frança]
 
 function exibeJogadoresNaTela(){
     var elemento = ""
