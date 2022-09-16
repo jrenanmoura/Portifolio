@@ -47,13 +47,13 @@ var maquina
 var jogador
 
 function sortearCarta() {
-var numeroCartaMaquina = parseInt(Math.random() * 3)
+var numeroCartaMaquina = parseInt(Math.random() * 4)
 maquina = cartas[numeroCartaMaquina]
     
 
-var numeroCartaJogador = parseInt(Math.random() * 3)
+var numeroCartaJogador = parseInt(Math.random() * 4)
 while (numeroCartaJogador == numeroCartaMaquina){
-    numeroCartaJogador = parseInt(Math.random() * 3)
+    numeroCartaJogador = parseInt(Math.random() * 4)
 }
 jogador = cartas[numeroCartaJogador]
 console.log(jogador)
