@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     min-height: 854px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6000ca11-0422-48c9-9254-65f6ba392a7c/db45zrx-82a76074-7256-4283-8803-f799a4e5fc86.png/v1/fill/w_622,h_350,q_70,strp/mutou_yuugi__yu_gi_oh___minimal_wallpaper_by_max028_db45zrx-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUwMCIsInBhdGgiOiJcL2ZcLzYwMDBjYTExLTA0MjItNDhjOS05MjU0LTY1ZjZiYTM5MmE3Y1wvZGI0NXpyeC04MmE3NjA3NC03MjU2LTQyODMtODgwMy1mNzk5YTRlNWZjODYucG5nIiwid2lkdGgiOiI8PTgwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.x30ES769MoN9UXhWB6VyIJnpvjjDqf9m-w7CDHH96vc);
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -12,6 +12,7 @@ body {
 .container {
     text-align: center;
     padding: 20px;
+ 
 }
 
 .page-title {
@@ -22,9 +23,10 @@ body {
 button {
     padding: .8rem 1.5rem;
     margin: 1rem 0;
-    border-radius: 5px;
-    border: none;
+    border-radius: 15px;
+    border: groove;
     font-size: 1rem;
+    border-color: red;
 }
 
 h2 {
