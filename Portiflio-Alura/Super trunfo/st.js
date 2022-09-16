@@ -74,3 +74,29 @@ exibirOpcoes()
     }
     opcoes.innerHTML = opcoesTexto
 }
+
+function obtemAtributoSelecionado(){
+    var radioAtributos = document.getElementsByName("atributo")
+    for (var i = 0; i < radioAtributos.length; i++){
+        if (radioAtributos[i].checked == true){
+            return radioAtributos[i].value
+        }
+    }
+}
+
+function jogar(){
+    var AtributoSelecionado = obtemAtributoSelecionado()
+    var elementoresultado = document.getElementById("resultado")
+    var valorCartaJogador = jogador.atributos[AtributoSelecionado]
+    var valorCartaMaquina  = maquina.atributos[AtributoSelecionado]
+
+    if (valorCartaJogador > valorCartaMaquina){
+        elementoresultado.innerHTML = " Ganhou!!! "
+    } else if(valorCartaMaquina > valorCartaJogador){
+        elementoresultado.innerHTML  = " Perdeu!!! "
+    }else {
+        elementoresultado.innerHTML = "Empate"
+    }
+
+
+}
