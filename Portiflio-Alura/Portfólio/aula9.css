@@ -14,15 +14,20 @@ body {
     padding: 64px;
     position: absolute;
     width: 980px;
-    height: 600px;
+    height: 800px;
     left: 90px;
     top: 49px;
 
 }
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
 
 .perfil{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .perfil-foto{
@@ -45,29 +50,44 @@ body {
     font-size: 24px;
 }
 
+.tema button{
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background-color: #ECF4FF;
+    border: radius 40px;
+}
+
 .projetos{
     display: flex;
     flex-direction: column;
     background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
     box-shadow: 8px 8px 12px rgba(16, 16, 16, 0.42);
+    margin-top: 32px;
     border-radius: 40px;
-    position: absolute;
-    width: 660px;
-    height: 450px;
-    left: 157px;
-    top: 240px;
-    
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
 
-.projetos ul{
-    text-align: center;
+.projetos-titulos {
+    list-style: none;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 42px;
 }
 
-.sociais{
-    display: flex;
-    align-items: flex-end;
+.projetos-item{
+    list-style-type: none;
+    font-size: 18px;
     font-weight: 400;
-    font-size: 12px; 
+    line-height: 32px;
+}
+
+.projetos-item a{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.dark{
+    background: linear-gradient(236.85deg, #375886 27,26%, #6B87A9 96,03%);
 }

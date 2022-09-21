@@ -2,7 +2,8 @@
     <link rel="stylesheet" href="../Portfólio/aula9.css">
     <div class="container">
     
-    <header class="perfil">
+    <header class="cabecalho">
+        <div class="perfil"> 
         <img class="perfil-foto" src="https://github.com/jrenanmoura.png" alt="">
         <div class="titulo">
             <h1>Renan Moura</h1>
@@ -10,23 +11,66 @@
 
 
         </div>
+        </div>
+
+        <div class="tema">
+
+          <button onclick="mudaTema()">Tema Escuro</button>
+
+        </div>
+      
     </header>
 
     <main class="projetos">
-        <ul>Projetos</ul>
-        <li><a href="https://codepen.io/jrenanmoura/pen/WNJvwyo">📲Calculadora de Média</a></li>
-        <li><a href="https://codepen.io/jrenanmoura/pen/jOxWPor">🔃Conversor de Distância</a></li>
-        <li><a href="https://codepen.io/jrenanmoura/pen/ExLPyod">🤷‍♂️Mentalista</a></li>
-        <li><a href="https://codepen.io/jrenanmoura/pen/MWGjoXe">📋Tabela de classificação</a></li>
-        <li><a href="https://codepen.io/jrenanmoura/pen/jOxqOmV">🎞️Movie Felix</a></li>
-        <li><a href="https://codepen.io/jrenanmoura/pen/bGMgmyY">🃏Super Trunfo</a></li>
+        <ul class="projetos-titulos">Projetos</ul>
+        
+        <li class="projetos-item"><p>Mentalista</p>
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ExLPyod" data-user="jrenanmoura" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/jrenanmoura/pen/ExLPyod">
+                Mentalista - ID3</a> by Renan Moura (<a href="https://codepen.io/jrenanmoura">@jrenanmoura</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </li>
+        <li class="projetos-item"><p>Tabela de classificação</p>
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWGjoXe" data-user="jrenanmoura" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/jrenanmoura/pen/MWGjoXe">
+                Tabela de classificação</a> by Renan Moura (<a href="https://codepen.io/jrenanmoura">@jrenanmoura</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </li>
+        <li class="projetos-item"><p>Movie Felix</p>
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="XWqjMwo" data-user="jrenanmoura" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/jrenanmoura/pen/XWqjMwo">
+                Aluraflix - dia 5</a> by Renan Moura (<a href="https://codepen.io/jrenanmoura">@jrenanmoura</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </li>
+        <li class="projetos-item"><p>Conversor de Moedas</p></li>
+        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwyWdMP" data-user="jrenanmoura" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/jrenanmoura/pen/RwyWdMP">
+            Conversor de moedas - ID3</a> by Renan Moura (<a href="https://codepen.io/jrenanmoura">@jrenanmoura</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </li>
+        <li class="projetos-item"<p>Conversor de Temperatura</p>
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="XWqXmMq" data-user="jrenanmoura" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/jrenanmoura/pen/XWqXmMq">
+                Untitled</a> by Renan Moura (<a href="https://codepen.io/jrenanmoura">@jrenanmoura</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </li>
 
-        <div class="Sociais">
-            <ul class="redes">Redes Socias</ul>
-            <li><a href="">Instagram</a></li>
-            <li><a href="https://twitter.com/JrenanMoura">Twitter</a></li>
-            <li><a href="https://github.com/jrenanmoura">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/renan-moura-105673109/">Linkedin</a></li>
+        <div class="projetos-titulos">
+            <ul>Redes Socias</ul>
+            <li class="projetos-item"><a href="">Instagram</a></li>
+            <li class="projetos-item"><a href="https://twitter.com/JrenanMoura" target="_blank">Twitter</a></li>
+            <li class="projetos-item"><a href="https://github.com/jrenanmoura" target="_blank">GitHub</a></li>
+            <li class="projetos-item"><a href="https://www.linkedin.com/in/renan-moura-105673109/" target="_blank">Linkedin</a></li>
         </div>
 
     </main>
