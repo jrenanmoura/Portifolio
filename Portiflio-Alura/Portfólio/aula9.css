@@ -14,7 +14,7 @@ body {
     padding: 64px;
     position: absolute;
     width: 980px;
-    height: 800px;
+    height: 2600px;
     left: 90px;
     top: 49px;
 
@@ -54,9 +54,11 @@ body {
     align-self: flex-end;
     font-size: 16px;
     font-weight: 400;
+    color: #070708;
+    border-radius: 40px;
     padding: 8px 16px;
-    background-color: #ECF4FF;
-    border: radius 40px;
+    background-color: #dfdff0;
+    
 }
 
 .projetos{
@@ -89,5 +91,20 @@ body {
 }
 
 .dark{
-    background: linear-gradient(236.85deg, #375886 27,26%, #6B87A9 96,03%);
+    background: linear-gradient(236.85deg, #375B86 27,26%, #6B87A9 96,03%);
 }
+
+.container .dark{
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos{
+    color: #1c1c1c;
+    }
+
+    .dark .tema button{
+        background: #ccddf3;
+        color: #090a0a;
+        border: 2px, solid, #f7f7f7;
+    }
